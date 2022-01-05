@@ -1,11 +1,25 @@
 import React from 'react'
-import SideBar from './components/SideBar'
+import styled from 'styled-components'
+import Header from './components/header/Header'
+import SideBar from './components/sideBar/SideBar'
+import Footer from './components/footer/Footer'
+import Profil from './components/content/Profil'
+import Setting from './components/content/Setting'
+
+
+
+
+const Container = styled.div``;
 
 const App = () => {
   return (
-    <div>
-      <SideBar/>
-    </div>
+    <Container>
+    <Header/>
+    <SideBar/>
+    <Profil/>
+    <Setting/>
+    <Footer/>
+    </Container>
   )
 }
 
