@@ -13,10 +13,22 @@ const Wrapper = styled.div`
    padding: 20px;
    background-color: chocolate;
 `
-const Menu = styled.div``
-const Title = styled.h3``
-const List = styled.ul``
-const ListItem = styled.li``
+const Menu = styled.div`
+    margin-bottom: 10px;
+`
+const Title = styled.h3`
+    font-size: 20px;
+`
+const List = styled.ul`
+    list-style: none;
+    padding: 5px;
+`
+const ListItem = styled.li`
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+`
 
 
 const SideBar = () => {
