@@ -3,15 +3,21 @@ import styled from 'styled-components'
 import { HomeOutlined,SettingsOutlined,FaceOutlined} from '@material-ui/icons'
 
 
-const Container = styled.div`
-    display: flex;
-    background-color: teal;
-    height: 100vh;
-    
+const Container1 = styled.div`
+position: fixed;
+top: 0;
+width: 100px;
+height: 100vh;
+background-color: crimson;
+padding: .80px 16px 0 0;
+z-index: 100;
 `
 const Wrapper = styled.div`
-   padding: 20px;
-   background-color: chocolate;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+overflow: hidden;
 `
 const Menu = styled.div`
     margin-bottom: 10px;
@@ -33,7 +39,7 @@ const ListItem = styled.li`
 
 const SideBar = () => {
     return (
-        <Container>
+        <Container1>
             <Wrapper>
                 <Menu>
                 <Title>Dashbord</Title>
@@ -44,7 +50,7 @@ const SideBar = () => {
                 </List>
                 </Menu>
             </Wrapper>
-        </Container>
+        </Container1>
     )
 }
 
