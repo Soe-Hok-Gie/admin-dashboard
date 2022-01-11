@@ -2,22 +2,25 @@ import React from 'react'
 import styled from 'styled-components'
 import { SearchOutlined} from '@material-ui/icons'
 
+// const Container = styled.div`
+//     height: 50px;
+//     background-color: black;
+//     display: flex;
+//     position: fixed;
+// `;
 
-const Container = styled.div`
-    display: flex;  
-    justify-content: center;
-    background-color:teal;
 
-`;
 const Wrapper = styled.div`
+    width: 100%;
     background-color:teal;
     padding: 0px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: fixed;
 `;
 
-const SearchContainer = styled.div`
+const SearchHeader = styled.div`
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -29,20 +32,16 @@ const Input = styled.input`
     border: none;
 `;
 
- 
-
-
-
 const Header = () => {
     return (
-      <Container>
+        // <Container>
         <Wrapper>
-                <SearchContainer>
+                <SearchHeader>
                     <Input/>
                     <SearchOutlined style={{color:"whitesmoke", fontSize:"15px"}}/>
-                </SearchContainer>
+                </SearchHeader>
         </Wrapper>
-    </Container>
+    // </Container>
     )
 }
 

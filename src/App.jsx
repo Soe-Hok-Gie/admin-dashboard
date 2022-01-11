@@ -1,37 +1,36 @@
 import React from 'react'
 import Header from './components/header/Header'
-import SideBar from './components/sideBar/SideBar'
 
-// import Dashbord from './components/Dashbord'
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route,
+//   // Navigate,
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  // Navigate,
+// } from 'react-router-dom';
 
-} from 'react-router-dom';
 import styled from 'styled-components'
 
-const Content = styled.div`
-   padding-top: 72px;
-   padding-left: 160px;
+const Container = styled.div`
+    height: 100vh;
+    background-color: crimson;
 `;
 
 const App = () => {
   return (
-    <>
-    <Header/>
-    <SideBar/>
-    <Content>
-    <BrowserRouter>
-      <Routes>
-          {/* <Route path='/dashbord' element={ <Dashbord/>}/> */}
+    // <>
+    // <Content>
+    // <BrowserRouter>
+    //   <Routes>
+    //       {/* <Route path='/dashbord' element={ <Dashbord/>}/> */}
 
-       </Routes>
-     </BrowserRouter>
-     </Content>
-    </>
+    //    </Routes>
+    //  </BrowserRouter>
+    //  </Content>
+    // </>
+    <Container>
+     <Header/>
+    </Container>
   )
 }
 
