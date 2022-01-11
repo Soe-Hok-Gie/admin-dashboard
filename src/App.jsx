@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import SideBar from './components/sideBar/SideBar'
-import Profil from './components/content/Profil'
-import Setting from './components/content/Setting'
+
 // import Dashbord from './components/Dashbord'
 
 import {
@@ -28,8 +27,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
           {/* <Route path='/dashbord' element={ <Dashbord/>}/> */}
-          <Route path='/profil' element={ <Profil/>}/>
-          <Route path='/setting' element={ <Setting/>}/>
+
        </Routes>
      </BrowserRouter>
      </Content>
