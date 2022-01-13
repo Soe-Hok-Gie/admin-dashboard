@@ -1,36 +1,26 @@
 import React from 'react'
-import Header from './components/header/Header'
 
-// import {
-//   BrowserRouter,
-//   Routes,
-//   Route,
-//   // Navigate,
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  // Navigate,
 
-// } from 'react-router-dom';
+} from 'react-router-dom';
+import Home from './components/Home';
 
-import styled from 'styled-components'
 
-const Container = styled.div`
-    height: 100vh;
-    background-color: crimson;
-`;
 
 const App = () => {
   return (
-    // <>
-    // <Content>
-    // <BrowserRouter>
-    //   <Routes>
-    //       {/* <Route path='/dashbord' element={ <Dashbord/>}/> */}
-
-    //    </Routes>
-    //  </BrowserRouter>
-    //  </Content>
-    // </>
-    <Container>
-     <Header/>
-    </Container>
+    <>
+    <BrowserRouter>
+      <Routes>
+          <Route path='/home' element={<Home/>}/>
+       </Routes>
+     </BrowserRouter>
+     
+    </>
   )
 }
 
