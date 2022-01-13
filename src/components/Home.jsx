@@ -13,6 +13,7 @@ const WrapperSidebar = styled.div`
     background-color: teal;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 `;
 const BoxSidebar = styled.div`
