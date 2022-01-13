@@ -16,6 +16,8 @@ const WrapperMain = styled.div`
     height:auto;
     background-color:cornsilk;
     width: 100%;
+    padding: 4px;
+
 `;
 const Search = styled.div`
     background-color: rgb(243, 82, 114);
