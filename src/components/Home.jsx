@@ -34,6 +34,7 @@ const WrapperContent = styled.div`
     width: 100%;
     height: 200px;
     margin-top: 15px;
+    margin-bottom: 100px;
 
 `;
 const WrapperFooter = styled.div`
