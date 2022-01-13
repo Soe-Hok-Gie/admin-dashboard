@@ -17,6 +17,10 @@ const WrapperMain = styled.div`
     background-color:cornsilk;
     width: 100%;
 `;
+const Search = styled.div``;
+const WrapperBox = styled.div``;
+const WrapperContent = styled.div``;
+const WrapperFooter = styled.div``;
 
 const Home = () => {
     return (
@@ -24,8 +28,21 @@ const Home = () => {
         <WrapperSidebar>
 
         </WrapperSidebar>
+
         <WrapperMain>
 
+        <Search>
+
+        </Search>
+        <WrapperBox>
+
+        </WrapperBox>
+        <WrapperContent>
+
+        </WrapperContent>
+        <WrapperFooter>
+
+        </WrapperFooter>
         </WrapperMain>
         </Container>
     )
