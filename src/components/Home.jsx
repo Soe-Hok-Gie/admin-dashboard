@@ -58,6 +58,9 @@ const Home = () => {
         <WrapperBox>
 
         </WrapperBox>
+        <WrapperBox>
+
+        </WrapperBox>
         <WrapperContent>
 
         </WrapperContent>
