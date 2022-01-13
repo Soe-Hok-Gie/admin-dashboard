@@ -12,6 +12,19 @@ const WrapperSidebar = styled.div`
     width: 300px;
     background-color: teal;
 `;
+const BoxSidebar = styled.div`
+    width: 60%;
+    height: 10%;
+    background-color: cornsilk;
+    border-radius: 10px;
+`;
+const Profil = styled.div`
+    width: 70%;
+    height: 10%;
+    background-color: cornsilk;
+    border-radius: 10px;
+`;
+
 const WrapperMain = styled.div`
     height:auto;
     background-color:cornsilk;
@@ -49,7 +62,10 @@ const Home = () => {
     return (
         <Container>
         <WrapperSidebar>
-
+        <BoxSidebar/>
+        <BoxSidebar/>
+        <BoxSidebar/>
+        <Profil/>
         </WrapperSidebar>
 
         <WrapperMain>
