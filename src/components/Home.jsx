@@ -14,6 +14,8 @@ const WrapperSidebar = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+
 
 `;
 const BoxSidebar = styled.div`
