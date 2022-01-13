@@ -63,9 +63,11 @@ const WrapperContent = styled.div`
     height: 200px;
     margin-top: 15px;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 `;
-
 const Boxcontent = styled.div`
     border-radius: 10px;
     background-color: whitesmoke;
