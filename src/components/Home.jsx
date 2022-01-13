@@ -12,6 +12,8 @@ const WrapperSidebar = styled.div`
     width: 300px;
     background-color: teal;
     display: flex;
+    flex-wrap: wrap;
+
 `;
 const BoxSidebar = styled.div`
     width: 60%;
