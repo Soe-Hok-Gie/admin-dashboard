@@ -17,7 +17,11 @@ const WrapperMain = styled.div`
     background-color:cornsilk;
     width: 100%;
 `;
-const Search = styled.div``;
+const Search = styled.div`
+    background-color: rgb(243, 82, 114);
+    width: 100%;
+    height: 60px;   
+`;
 const WrapperBox = styled.div``;
 const WrapperContent = styled.div``;
 const WrapperFooter = styled.div`
