@@ -26,6 +26,8 @@ const WrapperBox = styled.div`
     background-color: burlywood;
     width: 100%;
     height: 200px;
+    margin-top: 15px;
+
 `;
 const WrapperContent = styled.div`
     background-color:crimson;
