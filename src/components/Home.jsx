@@ -47,6 +47,7 @@ const WrapperBox = styled.div`
     height: 200px;
     margin-top: 15px;
     display: flex;
+    justify-content:space-evenly;
 
 
 `;
