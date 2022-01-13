@@ -33,6 +33,8 @@ const WrapperContent = styled.div`
     background-color:crimson;
     width: 100%;
     height: 200px;
+    margin-top: 15px;
+
 `;
 const WrapperFooter = styled.div`
  width: 100%;
