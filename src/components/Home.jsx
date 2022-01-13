@@ -15,8 +15,6 @@ const WrapperSidebar = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-
 `;
 const BoxSidebar = styled.div`
     width: 60%;
@@ -50,6 +48,14 @@ const WrapperBox = styled.div`
     margin-top: 15px;
 
 `;
+const Box = styled.div`
+    background-color: gray;
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+`;
+
+
 const WrapperContent = styled.div`
     background-color:crimson;
     width: 100%;
@@ -80,10 +86,14 @@ const Home = () => {
 
         </Search>
         <WrapperBox>
-
+            <Box/>
+            <Box/>
+            <Box/>
         </WrapperBox>
         <WrapperBox>
-
+            <Box/>
+            <Box/>
+            <Box/>
         </WrapperBox>
         <WrapperContent>
 
