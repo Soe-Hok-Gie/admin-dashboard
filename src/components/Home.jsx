@@ -79,6 +79,7 @@ const WrapperFooter = styled.div`
  width: 100%;
  background:radial-gradient( #00586a,#92d593);   
  height: 100px; 
+ display: flex;
 `;
 const Copyright = styled.span`
     margin: auto;
