@@ -57,7 +57,6 @@ const Box = styled.div`
     height: 80%;
 `;
 
-
 const WrapperContent = styled.div`
     background-color:crimson;
     width: 100%;
@@ -66,6 +65,15 @@ const WrapperContent = styled.div`
     margin-bottom: 100px;
 
 `;
+
+const Boxcontent = styled.div`
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 20%;
+    height: 80%;
+`;
+
+
 const WrapperFooter = styled.div`
  width: 100%;
  background:radial-gradient( #00586a,#92d593);   
@@ -98,7 +106,9 @@ const Home = () => {
             <Box/>
         </WrapperBox>
         <WrapperContent>
-
+         <Boxcontent/>
+         <Boxcontent/>
+         <Boxcontent/>
         </WrapperContent>
         <WrapperFooter>
 
