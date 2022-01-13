@@ -20,7 +20,11 @@ const WrapperMain = styled.div`
 const Search = styled.div``;
 const WrapperBox = styled.div``;
 const WrapperContent = styled.div``;
-const WrapperFooter = styled.div``;
+const WrapperFooter = styled.div`
+ width: 100%;
+ background:radial-gradient( #00586a,#92d593);   
+ height: 100px; 
+`;
 
 const Home = () => {
     return (
