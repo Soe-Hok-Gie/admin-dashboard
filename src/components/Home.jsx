@@ -22,7 +22,11 @@ const Search = styled.div`
     width: 100%;
     height: 60px;   
 `;
-const WrapperBox = styled.div``;
+const WrapperBox = styled.div`
+    background-color: burlywood;
+    width: 100%;
+    height: 200px;
+`;
 const WrapperContent = styled.div``;
 const WrapperFooter = styled.div`
  width: 100%;
