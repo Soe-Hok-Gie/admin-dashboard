@@ -75,11 +75,17 @@ const Boxcontent = styled.div`
     height: 80%;
 `;
 
-
 const WrapperFooter = styled.div`
  width: 100%;
  background:radial-gradient( #00586a,#92d593);   
  height: 100px; 
+`;
+const Copyright = styled.span`
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
 `;
 
 const Home = () => {
@@ -113,7 +119,7 @@ const Home = () => {
          <Boxcontent/>
         </WrapperContent>
         <WrapperFooter>
-
+        <Copyright>Manusia Merdeka</Copyright>
         </WrapperFooter>
         </WrapperMain>
         </Container>
