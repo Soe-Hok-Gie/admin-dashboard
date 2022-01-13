@@ -27,7 +27,11 @@ const WrapperBox = styled.div`
     width: 100%;
     height: 200px;
 `;
-const WrapperContent = styled.div``;
+const WrapperContent = styled.div`
+    background-color:crimson;
+    width: 100%;
+    height: 200px;
+`;
 const WrapperFooter = styled.div`
  width: 100%;
  background:radial-gradient( #00586a,#92d593);   
