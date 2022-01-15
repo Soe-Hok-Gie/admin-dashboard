@@ -23,10 +23,10 @@ const BoxSidebar = styled.div`
     border-radius: 10px;
 `;
 const Profil = styled.div`
-    width: 70%;
-    height: 10%;
+    width: 200px;
+	height: 200px;
     background-color: cornsilk;
-    border-radius: 10px;
+    border-radius: 100px;
 `;
 
 const WrapperMain = styled.div`
