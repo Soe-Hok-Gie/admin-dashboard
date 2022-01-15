@@ -12,13 +12,14 @@ const WrapperSidebar = styled.div`
     width: 300px;
     background-color: teal;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 `;
 const BoxSidebar = styled.div`
-    width: 60%;
-    height: 10%;
+    margin-top :50px;
+    width: 80px;
+    height: 80px;
     background-color: cornsilk;
     border-radius: 10px;
 `;
@@ -27,6 +28,8 @@ const Profil = styled.div`
 	height: 200px;
     background-color: cornsilk;
     border-radius: 100px;
+    position: absolute;
+    bottom: 0%;
 `;
 
 const WrapperMain = styled.div`
